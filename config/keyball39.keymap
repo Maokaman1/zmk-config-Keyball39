@@ -5,7 +5,6 @@
 #define MOUSE   4
 #define SCROLL  5
 #define SNIPE   6
-
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 5    // default: 10
 
 #include <behaviors/mouse_keys.dtsi>
@@ -127,10 +126,10 @@
         snipe_layer {
             label = "SNIPE";
             bindings = <
-&trans  &trans  &trans  &trans  &bootloader                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &bootloader                  &bootloader  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                       &trans       &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans                               &trans
             >;
         };
     };
