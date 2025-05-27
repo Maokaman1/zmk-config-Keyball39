@@ -360,7 +360,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  config:
+  CONF:
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -402,4 +402,4 @@ layers:
   - $$mdi:progress-download$$
 combos:
 - p: [35, 36]
-  k: config
+  k: CONF
