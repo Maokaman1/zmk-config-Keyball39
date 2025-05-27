@@ -69,7 +69,7 @@
 &kp Q      &kp W           &kp E     &kp R         &kp T                              &kp Y            &kp U  &kp I      &kp O    &kp P
 &kp A      &kp S           &kp D     &kp F         &kp G                              &kp H            &kp J  &kp K      &kp L    &kp SEMI
 &kp Z      &kp X           &kp C     &kp V         &kp B                              &kp N            &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_SHIFT  &kp LALT  &lt 6 ESCAPE  &lt 4 SPACE  &lt 3 TAB  &lt 7 RET  &lt 2 BACKSPACE                             &kp LEFT_WIN
+&kp LCTRL  &kp LEFT_SHIFT  &kp LALT  &lt 8 ESCAPE  &lt 5 SPACE  &lt 3 TAB  &lt 9 RET  &lt 2 BACKSPACE                             &kp LEFT_WIN
             >;
         };
 
@@ -103,18 +103,38 @@
             >;
         };
 
+        mouse_autolayer {
+            label = "AUTO-MOUSE";
+            bindings = <
+&kp N1            &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7          &kp N8  &kp N9     &kp N0
+&kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK       &mo 6   &mkp RCLK  &mkp MCLK
+&kp Z             &kp X           &kp C         &kp V      &kp Y                   &kp PAGE_DOWN  &kp UNDERSCORE  &mo 7   &kp DOT    &kp COMMA
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &tog 4     &trans  &trans  &trans  &trans                                            &kp MINUS
+            >;
+        };
+
         mouse_layer {
             label = "MOUSE";
             bindings = <
-&kp N1            &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7          &kp N8     &kp N9     &kp N0
-&kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK       &mo 5      &mkp RCLK  &mkp MCLK
-&kp Z             &kp X           &kp C         &kp V      &kp Y                   &kp PAGE_DOWN  &kp UNDERSCORE  &kp COMMA  &kp DOT    &kp MINUS
-&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans     &trans  &trans  &trans  &trans                                               &tog 4
+&kp N1            &kp N2          &kp N3        &kp N4     &kp N5                  &kp N6         &kp N7          &kp N8  &kp N9     &kp N0
+&kp LEFT_ARROW    &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &none                   &kp PAGE_UP    &mkp LCLK       &mo 6   &mkp RCLK  &mkp MCLK
+&kp Z             &kp X           &kp C         &kp V      &kp Y                   &kp PAGE_DOWN  &kp UNDERSCORE  &mo 7   &kp DOT    &kp COMMA
+&kp LEFT_CONTROL  &kp LEFT_SHIFT  &kp LEFT_ALT  &trans     &trans  &trans  &trans  &trans                                            &kp MINUS
             >;
         };
 
         scroll_layer {
             label = "SCROLL";
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+            >;
+        };
+
+        caret_scroll_layer {
+            label = "CARET-SCROLL";
             bindings = <
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
