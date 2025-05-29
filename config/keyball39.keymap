@@ -161,10 +161,10 @@
         caret_scroll_layer {
             label = "CARET-SCROLL";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                  &none   &none  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans                  &none   &none  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans                  &none   &none  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                       &none
             >;
         };
 
