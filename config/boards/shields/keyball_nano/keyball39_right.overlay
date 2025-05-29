@@ -56,10 +56,10 @@
         spi-max-frequency = <2000000>;
         irq-gpios = <&gpio1 11 (GPIO_ACTIVE_LOW | GPIO_PULL_UP)>;
         automouse-layer = <1>;
-	scroll-layers = <6>;
-	snipe-layers = <8>;
+	scroll-layers = <7>;
+	snipe-layers = <6>;
         arrows {
-            layers = <7>;
+            layers = <8>;
             bindings =
                 <&kp RIGHT_ARROW>,
                 <&kp LEFT_ARROW>,
