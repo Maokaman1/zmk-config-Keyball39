@@ -85,10 +85,10 @@
         mouse_autolayer {
             label = "AUTO-MOUSE";
             bindings = <
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &trans  &trans     &trans
-&trans  &trans  &trans  &trans  &trans                       &trans  &mkp LCLK  &mo 6   &mkp RCLK  &mkp MCLK
-&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &mo 7   &trans     &trans
-&trans  &trans  &trans  &trans  &lt 2 SPACE  &trans  &trans  &trans                                &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &mo 7  &trans     &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &mkp LCLK  &mo 6  &mkp RCLK  &mkp MCLK
+&trans  &trans  &trans  &trans  &trans                       &trans  &trans     &mo 7  &trans     &trans
+&trans  &trans  &trans  &trans  &lt 2 SPACE  &trans  &trans  &trans                               &trans
             >;
         };
 
