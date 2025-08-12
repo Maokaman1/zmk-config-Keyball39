@@ -67,7 +67,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - QWRT
+  - {t: QWRT, h: toggle}
   - CARET-SCROLL
   - {t: AUTO-MOUSE, h: toggle}
   - {t: '$$mdi:transfer$$', type: trans}
