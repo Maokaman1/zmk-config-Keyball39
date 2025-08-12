@@ -93,7 +93,7 @@
             bindings = <
 &trans  &trans  &trans  &trans  &trans                       &trans  &trans     &trans  &trans     &trans
 &trans  &trans  &trans  &trans  &trans                       &trans  &mkp LCLK  &mo 7   &mkp RCLK  &mkp MCLK
-&trans  &trans  &trans  &trans  &trans                       &trans  &mo 0      &mo 8   &tog 1     &trans
+&trans  &trans  &trans  &trans  &trans                       &trans  &to 0      &mo 8   &tog 1     &trans
 &trans  &trans  &trans  &trans  &lt 2 SPACE  &trans  &trans  &trans                                &trans
             >;
         };
